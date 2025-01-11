@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  .step {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: left;
+  }
+  
+  .step img.icon {
+    display: block;
+    margin: auto;
+    width: 60px;
+    margin-bottom: 15px;
+  }
+  
+  .step h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .bonus-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .bonus-image {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .con {
+    display: flex;
+    
+    justify-content: space-between;
+    max-width: 1600px;
+    
+    background-color: limegreen;
+    height: 350px;
+    
+    
+    
+  }
+  
+  .section {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 10px;
+    color: #ddd;
+    
+  }
+  
+  .section h3 {
+    font-size: 1.2rem;
+    
+    
+    padding-bottom: 5px;
+    color: white;
+    
+  }
+  
+  .section a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  .section ul {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .section ul li {
+    margin: 5px 0;
+    
+  }
+  
+  
+  
+  .section1 {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 10px;
+    gap: 20px;
+    
+  }
+  
+  .section1 h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    
+    padding-bottom: 5px;
+    color:white;
+  }
+.section1 a{
+  color: yellow;
+  text-decoration: none;
+  
+  
+}
+.section1 ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.section1 ul li {
+  margin: 5px 0;
+
+}
+.section2 {
+  flex: 1 1 200px;
+  margin: 10px;
+  padding: 10px;
+  
+  
+}
+
+.section2 h3 {
+  font-size: 1.2rem;
+  
+  
+  padding-bottom: 5px;
+  color: white;
+}
+
+.section2 a {
+  color: black;
+  text-decoration: none;
+}
+.section2 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section2 ul li {
+  margin: 5px 0;
+}
+.section3 {
+  flex: 1 1 200px;
+  
+  padding: 10px;
+  
+  
+}
+
+.section3 h3 {
+  font-size: 1.2rem;
+  
+  
+  padding-bottom: 5px;
+  color: white;
+}
+
+.section3 a {
+  color: yellow;
+  text-decoration: none;
+}
+.section3 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section3 ul li {
+  margin: 5px 0;
+  
+}
+.section4 {
+  flex: 1 1 200px;
+  margin: 10px;
+  padding: 10px;
+  
+  
+}
+
+.section4 h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+
+  padding-bottom: 5px;
+  color: white;
+}
+
+.section4 a {
+  color: black;
+  text-decoration: none;
+}
+.section4 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section4 ul li {
+  margin: 5px 0;
+}
+.footer {
+  
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .footer{
+    height: 200px;
+    justify-content: center;
+    
+    margin-bottom: 14px;
+  
+  background-color:green;
+  color: #ddd;
+  text-align: center;
+  padding: 20px;
+  
+    
+  }
+  footer-section{
+    flex: 1;
+    gap: 30px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+    
+  }
+  
+  .icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .icons img {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    
+  }
+  
+  .footer-bottom {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .chat-button button {
+    background-color: #0078FF;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .chat-button button:hover {
+    color: #ffeb3b;
+  }
+  
+    
+
+
+
+
